@@ -1,0 +1,19 @@
+.scrollBarHidden::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.scrollBarHidden::-webkit-scrollbar-track {
+  display: none !important;
+}
+
+.scrollBarHidden::-webkit-scrollbar-thumb {
+  display: none !important;
+}
+
+.scrollBarHidden::-webkit-scrollbar-corner {
+  display: none !important;
+}
+
+.scrollBarHidden {
+  scrollbar-width: none;
+}

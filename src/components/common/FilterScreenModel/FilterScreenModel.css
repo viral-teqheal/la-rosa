@@ -1,0 +1,38 @@
+.scrollBarHidden {
+  scrollbar-width: none;
+}
+.scrollBarHidden::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.scrollBarHidden::-webkit-scrollbar-track {
+  display: none !important;
+}
+
+.scrollBarHidden::-webkit-scrollbar-thumb {
+  display: none !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .filter-screen-model {
+    max-width: 530px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .filter-screen-model {
+    max-width: 430px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .filter-screen-model {
+    max-width: 330px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .filter-screen-model {
+    max-width: 300px;
+  }
+}
